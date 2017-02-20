@@ -9,7 +9,7 @@ from http.server import BaseHTTPRequestHandler
 import json
 
 # Server Configuration
-HOST_NAME = 'localhost'
+HOST_NAME = '0.0.0.0'
 HOST_NAME_TEST = HOST_NAME
 PORT_NUMBER = 8080
 PORT_NUMBER_TEST = PORT_NUMBER + 10
