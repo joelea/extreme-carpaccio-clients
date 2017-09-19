@@ -51,7 +51,7 @@ class ServerHandler(BaseHTTPRequestHandler):
 
             '/ping': lambda: self.__write_response('pong', 200),
             '/feedback': self.__feedback,
-            '/path': self.__your_path
+            '/order': self.__your_path
 
         }.get(self.path, lambda: self.__write_response('Unknown', 404))()
 
